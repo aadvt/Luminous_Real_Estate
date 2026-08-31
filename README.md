@@ -6,6 +6,9 @@
 
 The system updates its risk score every 15 minutes, with Monetary Policy Committee (MPC) rate decisions reflecting in under 90 seconds, ensuring highly current and relevant insights into market dynamics [1].
 
+![Screenshot](lum.png)
+
+Live link: https://luminous-real-estate.vercel.app/
 ## 2. Architecture Overview
 
 The project is structured into two main components: a `backend` and a `frontend`. The `backend` is built with FastAPI and incorporates a LangGraph multi-agent system, an ingestion pipeline for data, and various calculation modules. The `frontend` is a Next.js 15 application that provides a rich, interactive 3D visualization of the Indian property market, along with user interface elements for interaction and data display.
